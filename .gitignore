@@ -1,0 +1,31 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment/config files
+.env
+config.php
+database.php
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore cache and session files
+cache/
+sessions/
+
+# Ignore vendor (if using Composer)
+vendor/
+composer.lock
+
+# Ignore IDE/editor files
+*.sublime*
+*.vscode/
+*.idea/
+
+# Ignore OS-specific files
+desktop.ini
+
+# Ignore uploads (optional, if dynamically uploaded)
+uploads/
