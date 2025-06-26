@@ -95,8 +95,7 @@ require_once 'config/database.php';
                                     data-task-id="<?php echo $task['task_id']; ?>" 
                                     data-task-name="<?php echo htmlspecialchars($task['task_name']); ?>" 
                                     data-task-desc="<?php echo htmlspecialchars($task['task_description']); ?>" 
-                                    data-task-status="<?php echo $task['task_status']; ?>"
-                                    >
+                                    data-task-status="<?php echo $task['task_status']; ?>">
                                         <i class="bi bi-pencil"></i> Edit
                                     </button>
                                     <!-- Delete button module -->
