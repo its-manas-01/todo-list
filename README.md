@@ -10,12 +10,20 @@ A simple, efficient, and web-based Todo List application built with pure Core PH
 
 ---
 
-## 💻 Tech Stack:
+## 💻 Tech Stack
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
 ---
 
-## 🚦 Installation
+## ✨ Features
+- Add, edit, and delete tasks
+- Mark tasks as completed
+- View all, active, or completed tasks
+- Responsive and easy to use (with Bootstrap)
+
+---
+
+## 🚦 Getting Started
 1. Clone or download this repository to your local machine.
 2. Place the `todo-list` folder in your web server's root directory (e.g., `htdocs` for XAMPP).
 3. Start your web server (e.g., Apache via XAMPP).
