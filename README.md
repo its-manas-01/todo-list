@@ -1,14 +1,12 @@
 # 📝 Todo List
 
-## Hi there 👋 I'm the Todo List Project!
-
 ### 💫 About This Project:
-This is a simple, efficient, and web-based Todo List application built with pure Core PHP—no frameworks, just clean code! It helps you organize your tasks and boost productivity with a minimal, user-friendly interface.
+A simple, efficient, and web-based Todo List application built with pure Core PHP—no frameworks, just clean code! Organize your tasks and boost productivity with a minimal, user-friendly interface.
 
 - 🚀 Add, edit, and delete tasks
 - ✅ Mark tasks as completed
 - 👀 View all, active, or completed tasks
-- 📱 Responsive and easy to use
+- 📱 Responsive and easy to use (with Bootstrap)
 
 ---
 
@@ -49,7 +47,7 @@ Contributions are welcome! Please fork the repository and submit a pull request.
 ---
 
 ## 📜 License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
