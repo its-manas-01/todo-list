@@ -90,21 +90,22 @@ require_once 'config/database.php';
                                 </td>
                                 <td>
                                     <!-- Edit button module -->
-                                    <button type="button" class="btn btn-primary" 
-                                    data-bs-toggle="modal" data-bs-target="#editModal" 
-                                    data-task-id="<?php echo $task['task_id']; ?>" 
-                                    data-task-name="<?php echo htmlspecialchars($task['task_name']); ?>" 
-                                    data-task-desc="<?php echo htmlspecialchars($task['task_description']); ?>" 
-                                    data-task-status="<?php echo $task['task_status']; ?>">
+                                    <button type="button" class="btn btn-primary"
+                                        data-bs-toggle="modal" data-bs-target="#editModal"
+                                        data-task-id='<?= htmlspecialchars($task['task_id'], ENT_QUOTES) ?>'
+                                        data-task-name='<?= htmlspecialchars($task['task_name'], ENT_QUOTES) ?>'
+                                        data-task-desc='<?= htmlspecialchars($task['task_description'], ENT_QUOTES) ?>'
+                                        data-task-status='<?= htmlspecialchars($task['task_status'], ENT_QUOTES) ?>'>
                                         <i class="bi bi-pencil"></i> Edit
                                     </button>
+
                                     <!-- Delete button module -->
                                     <button type ="button" class="btn btn-danger" 
                                     data-bs-toggle="modal" data-bs-target="#deleteModal"
-                                    data-task-id="<?php echo $task['task_id']; ?>"
-                                    data-task-name="<?php echo htmlspecialchars($task['task_name']); ?>"
-                                    data-task-desc="<?php echo htmlspecialchars($task['task_description']); ?>"
-                                    data-task-status="<?php echo $task['task_status']; ?>"
+                                    data-task-id='<?= htmlspecialchars($task['task_id'], ENT_QUOTES) ?>'
+                                    data-task-name='<?= htmlspecialchars($task['task_name'], ENT_QUOTES) ?>'
+                                    data-task-desc='<?= htmlspecialchars($task['task_description'], ENT_QUOTES) ?>'
+                                    data-task-status='<?= htmlspecialchars($task['task_status'], ENT_QUOTES) ?>'
                                     >
                                         <i class="bi bi-trash"></i> Delete
                                     </button>
